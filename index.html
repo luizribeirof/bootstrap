@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Minha Página </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+</head>
+<body>
+    <!--Inicio Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="img/nav.png" alt="img do navbar" width="40px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#quemsomos">Quem Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#parceirosid">Parceiros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicosid">Serviços</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Fim Navbar-->
+      <!--Inicio Carrousel-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/pexels-pixabay-270360.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/pexels-burst-374631.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/pexels-bich-tran-669996.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--Fim Carrousel-->
+
+      <!-- Incio Quem Somos-->
+      <section id="quemsomos">
+      <div class="container-fluid quem-somos text-center margin">
+            <h3>Quem Somos</h3>
+          <p class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum placeat, suscipit hic voluptas 
+        fugiat obcaecati natus nostrum laudantium ipsum quasi quia, repellat iusto quas nihil sequi assumenda! Provident,
+         quos similique.</p>
+         <img src="img/quemsomos.jpg" alt="" class="rounded-circle" width="400px" height="400px">
+      </div>
+    </section>
+      <!-- Fim Quem Somos-->
+      <!--inicio parceiros-->
+        <section id="parceirosid">
+            <div class="container-fluid text-center margin parceiros">
+            <h3>Parceiros</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 ">
+                            <img src="img/pexels-andrew-neel-11082557.jpg" alt="" width="50%" height="50%" class="rounded-circle">
+                            <h2>Equinos</h2>
+                            <p>Adoramos o serviço e indicamos sempre que possivel</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/pexels-linda-gschwentner-10977675.jpg" alt="" width="50%" height="50%" class="rounded-circle">
+                            <h2>Escaladores</h2>
+                            <p>o melhor suporte de todos, sem comparação!</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/pexels-stanislav-kondratiev-10996595.jpg" alt="" width="50%" height="50%" class="rounded-circle">
+                            <h2>Pescadores</h2>
+                            <p>Rede mais forte que essa não existe.</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </section>
+      <!--fim parceiros-->
+
+      <!--inicio Servicos-->
+      <section id="servicosid">
+          <div class="container-fluid text-center margin servicos">
+            <h2>Serviços</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h4>Suporte</h4>
+                        
+                        <a href="#">  <img src="img/quemsomos.jpg" alt="" width="100%"></a>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4>Metaverso</h4>
+                        
+                        <a href="#">  <img src="img/pexels-pixabay-355948.jpg" alt="" width="100%" height="85%"></a>
+                    </div>
+                    
+                </div>
+            </div>
+          </div>
+      </section>
+      <!--fim  servicos-->
+
+
+</body>
+
+<footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#navbarNavDropdown" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#quemsomos" class="nav-link px-2 text-muted">Quem Somos</a></li>
+      <li class="nav-item"><a href="#parceirosid" class="nav-link px-2 text-muted">Parceiros</a></li>
+      <li class="nav-item"><a href="#servicosid" class="nav-link px-2 text-muted">Serviços</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contato</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2022 Desenvolvido por Luiz Fernando Ribeiro</p>
+  </footer>
+</html>
